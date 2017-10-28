@@ -12,6 +12,12 @@ Random.org requires an API key to call their API for truely random number
 generation, get one from there website and create a text file with the key
 at config/api.key.
 
+Install the dependent python modules:
+	Requests
+
+This can also be done with the command:
+	pip -r requirements.txt
+
 Then just run the script!
 
 	python password_gen.py
